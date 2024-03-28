@@ -1,0 +1,10 @@
+kind: Service
+metadata:
+  name: webservice
+spec:
+  selector:
+    app: myapp
+  ports:
+    - protocol: TCP
+      port: 8080
+     
